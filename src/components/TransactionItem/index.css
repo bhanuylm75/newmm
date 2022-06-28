@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.result-inner {
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #cbd5e1;
+  justify-content: space-between;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.item {
+  width: 30%;
+}
+
+.image {
+  height: 20px;
+  margin: 15px;
+}

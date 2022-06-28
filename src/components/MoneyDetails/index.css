@@ -1,0 +1,41 @@
+.list {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  height: 100px;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: 'roboto';
+}
+@media screen and (max-width: 760px) {
+  .list {
+    width: 100%;
+    margin-bottom: 18px;
+  }
+}
+.img {
+  width: 40px;
+  height: 40px;
+  margin: 20px;
+}
+.balance {
+  background-color: #ecfccb;
+  border-style: solid;
+  border-color: #84cc16;
+  border-width: 1px;
+}
+.income {
+  background-color: #cffafe;
+  border-style: solid;
+  border-color: #06b6d4;
+  border-width: 1px;
+}
+.expenses {
+  background-color: #ede9fe;
+  border-style: solid;
+  border-color: #7c3aed;
+  border-width: 1px;
+}
+.para {
+  font-size: 15px;
+}
